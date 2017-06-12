@@ -6,7 +6,7 @@ gem 'pg'
 
 #My additions
 gem 'figaro'
-gem 'web-console'
+#gem 'web-console'
 gem 'byebug'
 
 gem 'haml'

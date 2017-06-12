@@ -13,7 +13,7 @@ class RecipePresenter < ApplicationPresenter
     recipe.tags.map do |tag|
       h.link_to tag.name, "/tags/#{tag.name}"
     end.join(", ").html_safe
-    byebug
+    #byebug
   end
 
   def created_by
