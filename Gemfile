@@ -4,7 +4,10 @@ ruby '2.2.7'
 gem 'rails', '4.1.0'
 gem 'pg'
 
+#My additions
 gem 'figaro'
+gem 'web-console'
+gem 'byebug'
 
 gem 'haml'
 gem 'sass-rails', '~> 4.0.3'

@@ -9,10 +9,11 @@ class RecipePresenter < ApplicationPresenter
     :forked?, to: :recipe
 
   def tag_links
-    return if recipe.tags.empty?
+    return if recipe.tags.nil?
     recipe.tags.map do |tag|
       h.link_to tag.name, "/tags/#{tag.name}"
     end.join(", ").html_safe
+    byebug
   end
 
   def created_by
